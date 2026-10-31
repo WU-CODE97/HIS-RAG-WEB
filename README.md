@@ -1,6 +1,6 @@
 # HIS-RAG Web
 
-医院知识智能问答系统的前端，配套后端 [`HIS-RAG`](../HIS-RAG)（Spring Boot 3.2 + Java 17）。
+医院知识智能问答系统的前端，配套后端 [`HIS-RAG`](https://github.com/WU-CODE97/HIS-RAG)（Spring Boot 3.2 + Java 17）。
 
 基于 **Vue 3 + Vite + Pinia + Vue Router**，零 UI 组件库依赖（设计系统自建），覆盖问答、知识库、检索调试、效果评估、系统监控五个工作台页面。
 
@@ -9,6 +9,10 @@
 ## 快速开始
 
 ```bash
+# 0. 克隆两个仓库到同一父目录（保持 ../HIS-RAG 的相对布局）
+git clone https://github.com/WU-CODE97/HIS-RAG.git
+git clone https://github.com/WU-CODE97/HIS-RAG-WEB.git his-rag-web
+
 # 1. 先启动后端（默认 8080）
 cd ../HIS-RAG && mvn spring-boot:run
 
